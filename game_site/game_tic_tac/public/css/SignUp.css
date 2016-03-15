@@ -1,0 +1,131 @@
+
+
+
+
+#sign_up_block {
+	position:absolute;
+   // background-color: gray;
+	width: 240px;
+	height:400px;
+	left:56%;
+   // right: 50%;
+	top: 60%;
+   margin: -200px 0 0 -200px;
+    
+
+/*	z-index: 1;
+	background-color: lightgray;
+	filter: alpha(opacity=50); 
+	opacity: 0.5;*/
+
+	-moz-border-radius:20px;  
+    -webkit-border-radius:20px;  
+    border-radius:20px;  
+}
+
+#form_block {
+	//position:absolute;
+	//width: 240px;
+	height:400px;
+	//left:50%;
+  //  right:50%;
+	//top:25%;
+    border-style: solid;
+	z-index: 2;
+	background-color: gray;
+	filter: alpha(opacity=60); 
+	opacity: 0.6;
+
+	-moz-border-radius:15px;  
+    -webkit-border-radius:15px;  
+    border-radius:15px; 
+}
+
+.detail_info {
+	margin-top:10px;
+	margin-left:30px;
+}
+header{
+     text-align: center
+}
+.trnItem {
+	-webkit-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+	margin-left: 1px;
+	margin-right: 1px;
+	color: #000000;
+}
+
+.trnItem:hover {
+	color: #FFFFFF;
+	font-size: x-large;
+}
+
+.newAccount {
+}
+header nav {
+	background-color: lightblue;
+	//top: 0px;
+	text-align: center;
+	//padding-left: 1px;
+	//padding-top: 1px;
+	//padding-right: 1px;
+	//padding-bottom: 1px;
+	margin-top: 1em;
+//	margin-right: 1em;
+//	margin-bottom: 1em;
+	//margin-left: 1em;
+	position: absolute;
+	border-radius: 15px;
+	width: 99%;
+}
+footer nav {
+	color: #FFFFFF;
+	background-color: lightblue;
+	text-align: center;
+	//padding-left: 1px;
+	//padding-top: 1px;
+	//padding-right: 1px;
+	//padding-bottom: 1px;
+	//margin-top: 1em;
+	//margin-right: 1em;
+	margin-bottom: 1em;
+	//margin-left: 1em;
+	position: absolute;
+	width: 99%;
+	border-radius: 15px;
+	bottom: 0px;
+	
+}
+.btn {
+	border-radius: 10px;
+	width: 100px;
+	-webkit-transition: all 0s ease 0s;
+	-o-transition: all 0s ease 0s;
+	transition: all 0s ease 0s;
+	font-weight: bold;
+	margin-top: 10px;
+    margin-left: 65px
+}
+.btn:hover {
+	color: #EB6060;
+}
+body {
+	background-image: url("../images/background-pattern.png");
+
+}
+#banner {
+	height:200px;
+	background:url("../images/banner.jpg");
+	background-repeat:repeat-x;
+    border-radius: 15px;
+
+}
+
+#banner_title {
+	padding-left:50px;
+	padding-top:50px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 36px;
+}

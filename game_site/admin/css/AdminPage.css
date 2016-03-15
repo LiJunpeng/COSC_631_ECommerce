@@ -1,0 +1,238 @@
+
+
+
+
+
+
+.game_block {
+	height:220px;
+	background-color: rgb(48, 188, 251);
+	padding:10px;
+	margin-bottom:5px;
+
+	-moz-border-radius:20px;  
+    -webkit-border-radius:20px;  
+    border-radius:20px; 
+}
+
+.game_block table {
+		-moz-border-radius:10px;  
+    -webkit-border-radius:10px;  
+    border-radius:10px; 
+	//padding:10px;
+}
+
+.game_icon {
+	width:220px;
+	height:220px;
+
+	display:inline-block;
+	-moz-border-radius:20px;  
+    -webkit-border-radius:20px;  
+    border-radius:20px; 
+}
+
+.game_icon img{
+	display:inline-block;
+	-moz-border-radius:40px;  
+    -webkit-border-radius:40px;  
+    border-radius:40px; 
+}
+
+.game_details {
+	height:210px;
+	width:480px;
+	display:inline-block;
+	background-color: rgb(59,215,252);
+}
+
+.game_details th{
+	width:500px;
+
+}
+
+.game_name {
+	height:40px;
+	background-color: orange;
+	//width:495px;
+	margin-left: 5px;
+	margin-right:5px;
+	margin-top:5px;
+
+	-moz-border-radius:10px;  
+    -webkit-border-radius:10px;  
+    border-radius:10px; 
+}
+
+.game_description {
+	height: 150px;
+	background-color: rgb(77,251,255);
+	margin-left:5px;
+	margin-right:5px;
+}
+
+.enter_game_block {
+	display:inline-block;
+	height:210px;
+	width:210px;
+}
+
+.enter_game_block th{
+
+	padding:40px;
+}
+
+
+//------------------------------------
+.detail_info {
+	border-radius: 10px;
+	width: 100px;
+	-webkit-transition: all 0s ease 0s;
+	-o-transition: all 0s ease 0s;
+	transition: all 0s ease 0s;
+	font-weight: bold;
+	//margin-top: 20px;
+}
+.detail_info:hover {
+	color: #EB6060;
+}
+body {
+	background-image: url("../images/background-pattern.png");
+
+}
+
+
+footer nav {
+	color: #FFFFFF;
+	background-color: lightblue;
+	text-align: center;
+	margin-bottom: 1em;
+	position: relative;
+	width: 99.5%;
+	height: 40px;
+	border-radius: 15px;
+	bottom: 0px;
+	
+}
+
+
+
+body {
+	background-image: url("../images/bg_2.png");
+
+}
+
+
+* {
+	-moz-border-radius:5px;  
+    -webkit-border-radius:5px;  
+    border-radius:5px; 
+}
+
+a {
+	 text-decoration: none; 
+}
+
+nav {
+	background-color: rgb(31,158,212);
+    top: 0px;
+    height:40px;
+    text-align: center;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-right: 1px;
+
+    -moz-border-radius:10px;  
+    -webkit-border-radius:10px;  
+    border-radius:10px; 
+}
+
+#account_tool {
+	float:right;
+	margin-right: 10px;
+	width:200px;
+	height:30px;
+	margin-top:5px;
+	background-color: orange;
+
+	-moz-border-radius:5px;  
+    -webkit-border-radius:5px;  
+    border-radius:5px; 
+}
+
+#username {
+	//margin-left:20px;
+	margin-right: 20px;
+	margin-top:5px;
+	float:right;
+}
+
+#logout {
+	margin-left:20px;
+	margin-right: 20px;
+	margin-top:5px;
+	float:right;
+}
+
+
+#header {
+	background-color: lightgray;
+	width:1000px;
+	height:240px;
+	display: block;
+	margin:auto;
+}
+
+
+#content{
+	margin-top:25px;
+	background-color: rgb(48,188,251);
+	width:1000px;
+	display: block;
+	margin:auto;
+	min-height: 600px;
+	padding-bottom: 10px;
+
+    -moz-border-radius:20px;  
+    -webkit-border-radius:20px;  
+    border-radius:20px; 
+}
+
+#page_title_block {
+	height:80px;
+	padding:10px;
+	background-color: rgb(61,215,253);
+}
+
+#page_title_logo {
+	width:80px;
+	height: 80px;
+	//display:inline-block;
+	background-repeat: no-repeat;
+}
+
+#page_title {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 24px;
+}
+
+#detail_block {
+	background-color: cyan;
+	min-height: 470px;
+	margin:10px;
+	padding:5px;
+
+	-moz-border-radius:20px;  
+    -webkit-border-radius:20px;  
+    border-radius:20px; 
+}
+
+/*
+#footer{
+	background-color: gray;
+	width:1000px;
+	height:60px;
+	display: block;
+	margin:auto;
+	opacity: 0;
+}*/

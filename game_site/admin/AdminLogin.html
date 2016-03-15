@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MainMenu</title>
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/Login.js"></script>
+    <link href="css/Login.css" type="text/css" rel="Stylesheet" />
+    <!--/<link href="css/Frame.css" type="text/css" rel="Stylesheet" />/-->
+</head>
+    <header>
+<div id="banner">
+    <div id="banner_title">Welcome to the Game Bar WebSite Developed by Group5</div>
+        </div>
+<nav id="topnav">
+   
+</nav> 
+</header>
+
+<body onload="loadContent()" background="background-pattern.png">
+    
+
+    <div id="title"></div>
+
+
+    
+    <div id="login_area">
+        <table id="login_wrapper" border="0">
+            
+            <tr>
+                <!--<th style="color:red"><h1>Welcome to the Game Bar Developed by Group5</h1>-->
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <div id="login_block">
+                        <div id="login_title"><h3>Login:</h3></div>
+                        <br/>
+                        <div id="login_form">
+                            <form method = "POST" action = "../bin/admin_login.php" onsubmit="return check();">
+                                <input type = "text" name = "username" placeholder="Username" id = "username_field" class ="textField"/>
+                                <br/>
+                                <input type= "password" name = "password" placeholder = "Password" id = "password_field" class ="textField"/>
+                                <br/>
+                                <input type = "submit" name="button" value = "Login" class="btn"/>
+                            </form>
+                        </div>
+                    </div>
+                </th>
+            </tr>
+            <tr><th></th></tr>
+        </table>
+    </div>
+
+
+</body>
+    <footer id="footer">
+        <nav><p>Copyright 2015 by Group5. Made with 100% recycled pixels.</p></nav>
+  
+</footer>
+</html>

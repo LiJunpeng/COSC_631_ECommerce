@@ -1,0 +1,104 @@
+
+
+
+#overall_block {
+	background-color: orange;
+	height:160px;
+	padding:5px;
+	margin-bottom: 10px;
+	-moz-border-radius:20px;  
+    -webkit-border-radius:20px;  
+    border-radius:20px; 
+}
+
+#overall_block table tr th{
+	min-width: 20px;
+
+		-moz-border-radius:20px;  
+    -webkit-border-radius:20px;  
+    border-radius:20px; 
+}
+
+#overall_record{
+	margin-left: 10px;
+	height: 150px;
+	width:600px;
+}
+
+#overall_record tr th{
+	width:150px;
+	height:40px;
+}
+
+
+#avatar {
+	width:120px;
+	height:120px;
+}
+
+#account_name {
+	height: 25px;
+	background-color: rgb(61, 215, 253);
+
+	-moz-border-radius:10px;  
+    -webkit-border-radius:10px;  
+    border-radius:10px; 
+}
+
+#total_score, #total_wins, #game_played, #overall_wl {
+	background-color: rgb(255, 195, 0);
+}
+
+
+.game_record_block {
+	background-color: rgb(48, 188, 251);
+	height:160px;
+	padding:5px;
+	margin-bottom: 10px;
+	-moz-border-radius:20px;  
+    -webkit-border-radius:20px;  
+    border-radius:20px; 
+}
+
+
+
+.game_block table tr th{
+	min-width: 20px;
+}
+
+.game_record{
+	margin-left: 10px;
+	height: 150px;
+	width:600px;
+	-moz-border-radius:20px;  
+    -webkit-border-radius:20px;  
+    border-radius:20px; 
+}
+
+.game_record tr th{
+	width:150px;
+	height:40px;
+}
+
+.game_icon img {
+	-moz-border-radius:20px;  
+    -webkit-border-radius:20px;  
+    border-radius:20px; 
+}
+
+.game_name {
+	background-color: orange;
+	height:20px;
+
+	-moz-border-radius:10px;  
+    -webkit-border-radius:10px;  
+    border-radius:10px; 
+}
+
+.info_detail {
+
+}
+
+.total_score, .total_wins, .game_played, .overall_wl {
+	background-color: rgb(61, 215, 253);
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SignUp Page</title>
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/SignUp.js"></script>
+    <link href="css/SignUp.css" type="text/css" rel="Stylesheet" />
+</head>
+    
+    
+<header class="newAccount">
+
+    <div id="banner">
+        <div id="banner_title">Welcome to the Game Bar Registration Page</div></div>
+
+        <nav>
+  
+          <p>  <a href="Index.php" class="trnItem">Home</a>  <a href="SignUp.html" class="trnItem">SignUp</a></p>
+   
+        </nav> 
+        
+</header>
+    
+<body onload="loadContent()" >
+    
+<div id="wrapper"> 
+   
+
+
+    <div id="sign_up_block">
+        <div id="form_block">
+            <form method = "POST" action = "../bin/sign_up.php" onsubmit="return check();">
+                <div  class="detail_info">Username:</div>
+                <input type = "text" name = "username" placeholder="username" id = "username_field" class="detail_info"/>
+                <br/>
+
+                <div  class="detail_info">Create Password:</div>
+                <input type= "password" name = "password" placeholder = "password" id = "password_field" class="detail_info"/>
+                <br/>
+
+                <div class="detail_info">Confirm Password:</div>
+                <input type= "password" name = "confirm_password" placeholder = "confirm password" id = "password_field" class="detail_info"/>
+                <br/>
+
+                <div class="detail_info">First Name:</div>
+                <input type= "text" name = "first_name" placeholder = "John" id = "first_name_field" class="detail_info"/>
+                <br/>
+
+                <div class="detail_info">Last Name:</div>
+                <input type= "text" name = "last_name" placeholder = "Smith" id = "last_name_field" class="detail_info"/>
+                <br/>
+
+                <div class="detail_info">Email address:</div>
+                <input type= "text" name = "email" placeholder = "abc@abc.com" id = "email_field" class="detail_info"/>
+                <br/>
+
+                <input class="btn" type = "submit" name="button" value = "Sign Up " class="detail_info"/>
+            </form>
+        </div>
+    </div>
+
+</div>
+</body>
+    <footer id="footer">
+        <nav><p>Copyright 2015 by Group5. Made with 100% recycled pixels.</p></nav>
+  
+</footer>
+</html>
