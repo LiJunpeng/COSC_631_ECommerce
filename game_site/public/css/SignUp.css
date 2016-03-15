@@ -30,11 +30,12 @@
 	//left:50%;
   //  right:50%;
 	//top:25%;
-    border-style: solid;
+    //border-style: solid;
+    padding-top: 5px;
 	z-index: 2;
-	background-color: gray;
-	filter: alpha(opacity=60); 
-	opacity: 0.6;
+	background-color: lightgray;
+	filter: alpha(opacity=80); 
+	opacity: 0.8;
 
 	-moz-border-radius:15px;  
     -webkit-border-radius:15px;  
@@ -79,6 +80,9 @@ header nav {
 	position: absolute;
 	border-radius: 15px;
 	width: 99%;
+
+	filter: alpha(opacity=60); 
+	opacity: 0.6;
 }
 footer nav {
 	color: #FFFFFF;
@@ -97,6 +101,8 @@ footer nav {
 	border-radius: 15px;
 	bottom: 0px;
 	
+	filter: alpha(opacity=60); 
+	opacity: 0.6;
 }
 .btn {
 	border-radius: 10px;
@@ -112,7 +118,7 @@ footer nav {
 	color: #EB6060;
 }
 body {
-	background-image: url("../images/background-pattern.png");
+	background-image: url("../images/sign_up_bg.png");
 
 }
 #banner {
@@ -121,6 +127,8 @@ body {
 	background-repeat:repeat-x;
     border-radius: 15px;
 
+	filter: alpha(opacity=60); 
+	opacity: 0.6;
 }
 
 #banner_title {
